@@ -1,0 +1,10 @@
+Test_Project:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: DEV_DBT_GEETANSH_ROLE
+      warehouse: GEETANSH_TASTY_BYTES_DBT_WH
+      database: DEV_DBT_GEETANSH_RAW
+      schema: DBT_GMAHAJAN
+      threads: 8
